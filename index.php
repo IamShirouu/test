@@ -1,6 +1,6 @@
 <?php
 
-header('Content-Type: ngrok-skip-browser-warning');
+header('Content-Type: application/json');
 header("Access-Control-Allow-Origin: *");
 
 if ($_SERVER['REQUEST_METHOD'] === "GET") {
