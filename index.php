@@ -19,8 +19,8 @@ if ($primeraRes === 3) {
 
 if ($_SERVER['REQUEST_METHOD'] === "GET") { // nomas get
     $respuesta = [
-        "mensaje" => "Amate tal y como eres!",
-        "status" => $primeraRes,
+        "mensaje" => $primeraRes,
+        "status" => "Exitoso!",
         "fecha" => date("Y-m-d H:i:s")
     ];
     
