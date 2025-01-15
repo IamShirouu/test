@@ -20,7 +20,7 @@ if ($primeraRes === 3) {
 if ($_SERVER['REQUEST_METHOD'] === "GET") { // nomas get
     $respuesta = [
         "mensaje" => $primeraRes,
-        "status" => "Exitoso!",
+        "status" => "exitoso!",
         "fecha" => date("Y-m-d H:i:s")
     ];
     
